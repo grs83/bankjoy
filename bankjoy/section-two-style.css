@@ -1,0 +1,66 @@
+.rowtwo {
+  position: relative;
+  height: 825px;
+}
+
+.sectiontwo {
+  width: 1170px;
+  height: 550px;
+  position: relative;
+  top: 110px;
+  left: calc(50% - 585px);
+}
+
+.twoleftbox {
+  position: absolute;
+  top: 30%;
+  height: 220px;
+  width: 555px;
+}
+
+.sectiontwo h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 3em;
+  text-align: left;
+  margin-bottom: 30px;
+  color: #393942;
+  font-weight: 100;
+}
+
+.sectiontwo p {
+  font-family: 'Work Sans', sans-serif;
+  text-align: left;
+  line-height: 2em;
+  font-size: 1.1em;
+  color: grey;
+  border-left: 1px solid #5170dd;
+  padding-left: 30px;
+}
+
+.tworightbox {
+  height: 544px;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+
+.sectiontwobottom {
+  height: 467px;
+}
+
+.phoneShadow {
+  height: 530px;
+  width: 240px;
+  border-radius: 60px;
+  box-shadow: 15px 0 50px #404040;
+  position: absolute;
+  top: -25px;
+  right: 165px;
+}
+
+.sectiontwotop {
+  position: absolute;
+  top: -30px;
+  right: 150px;
+  height: 544px;
+}

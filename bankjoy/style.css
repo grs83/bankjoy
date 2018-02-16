@@ -1,0 +1,89 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.animated {
+  animation-duration: 0.25s;
+}
+
+.animatedOne {
+  animation-duration: 1s;
+  animation-delay: 0.25s;
+}
+
+.grid {
+  width: 100%;
+}
+
+.row {
+  overflow: auto;
+}
+
+.column {
+  height: 825px;
+  float: left;
+  margin: 10px;
+}
+
+.one {
+  width: calc(100% / 12 * 1 - 20px);
+}
+
+.two {
+  width: calc(100% / 12 * 2 - 20px);
+}
+
+.three {
+  width: calc(100% / 12 * 3 - 20px);
+}
+
+.four {
+  width: calc(100% / 12 * 4 - 20px);
+}
+
+.five {
+  width: calc(100% / 12 * 5 - 20px);
+}
+
+.six {
+  width: calc(100% / 12 * 6 - 20px);
+}
+
+.seven {
+  width: calc(100% / 12 * 7 - 20px);
+}
+
+.eight {
+  width: calc(100% / 12 * 8 - 20px);
+}
+
+.nine {
+  width: calc(100% / 12 * 9 - 20px);
+}
+
+.ten {
+  width: calc(100% / 12 * 10 - 20px);
+}
+
+.eleven {
+  width: calc(100% / 12 * 11 - 20px);
+}
+
+.twelve {
+  width: calc(100% / 12 - 20px);
+}
+
+.white {
+  background-color: white;
+}
+
+.grey {
+  background-color: #f4f4f4;
+}
