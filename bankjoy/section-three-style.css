@@ -1,0 +1,67 @@
+.rowthree {
+  position: relative;
+  height: 825px;
+}
+
+.sectionthree {
+  width: 1170px;
+  height: 550px;
+  position: relative;
+  top: 110px;
+  left: calc(50% - 585px);
+}
+
+.threerightbox {
+  position: absolute;
+  top: 30%;
+  right: 50px;
+  height: 220px;
+  width: 555px;
+}
+
+.sectionthree h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 3em;
+  text-align: left;
+  margin-bottom: 30px;
+  color: #393942;
+  font-weight: 100;
+}
+
+.sectionthree p {
+  font-family: 'Work Sans', sans-serif;
+  text-align: left;
+  line-height: 2em;
+  font-size: 1.1em;
+  color: grey;
+  border-left: 1px solid #5170dd;
+  padding-left: 30px;
+}
+
+.threeleftbox {
+  height: 544px;
+  position: absolute;
+  top: 10%;
+  left: 50px;
+}
+
+.sectionthreebottom {
+  height: 467px;
+}
+
+.sectionthreephoneShadow {
+  height: 530px;
+  width: 240px;
+  border-radius: 60px;
+  box-shadow: -15px 0 50px #404040;
+  position: absolute;
+  top: -25px;
+  right: -140px;
+}
+
+.sectionthreetop {
+  position: absolute;
+  top: -30px;
+  right: -150px;
+  height: 544px;
+}

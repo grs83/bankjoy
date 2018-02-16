@@ -1,0 +1,48 @@
+.footer {
+  width: 100%;
+  height: 245px;
+  background-color: rgb(241, 244, 245);
+  margin: 0 auto;
+}
+
+.footerContainer {
+  height: 165px;
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.footerContainer img {
+  height: 30px;
+}
+
+.footerContainer p {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 0.8em;
+  color: rgb(171, 171, 171);
+  margin-top: 50px;
+}
+
+.animatedTwo {
+  animation-duration: 0.5s;
+}
+
+@keyframes pulseTwo {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(20, 20, 20);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulseTwo:hover {
+  animation-name: pulse;
+  cursor: pointer;
+}
